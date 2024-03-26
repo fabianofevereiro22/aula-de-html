@@ -1,0 +1,18 @@
+h1{color:rgb(176, 143, 143);
+font-family:'Times New Roman', Times, serif;
+background-color: beige;
+}
+h2{
+    color: rgb(31, 132, 98);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+
+}
+p{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(176, 143, 143)
+}
+body{
+    background-color: rgb(176, 143, 143);
+}

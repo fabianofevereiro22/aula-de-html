@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Cadastro</h1>
+    </header>
+
+    <form action="mailto: fabianofevereiro22@outlook" method="post">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome">
+            <br> <br>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email">
+            <label for="endereço">Endereço:</label>
+            <input type="text" id="text">
+            <br> <br>
+        </fieldset>
+
+        <br><br>
+        <fieldset>
+            <label for="listaUnidedes">Selecione sua unidadae</label>
+            <select name="Unidades" id="listaUnidades">
+                <option value="Unidades" disabled selected>Unidades</option>
+                <option value="santana">Santana</option>
+                <option value="santo amaro">Santo Amaro</option>
+                <option value="diadema">Diadema</option>
+                <option value="itaquera">itaquera</option>
+            </select>
+
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <p>Onde você mora?</p>
+            <input type="text" list="cidade" autocomplete="on" name="cidade" placeholder="Digite sua Cidade">
+            <datalist id="cidade">
+                <option value="São Paulo"></option>
+                <option value="Campinas"></option>
+                <option value="Santo André"></option>
+                <option value="Juquitiba"></option>
+            </datalist>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <textarea name="avaliacao" id="avaliacao" rows="20" cols="10" maxlength="1000"
+                placeholder="Deixe aqui seu comentário" required></textarea>
+            <br><br>
+            <input type="submit" value="Enviar">
+        </fieldset>
+
+
+    </form>
+</body>
+
+</html>
