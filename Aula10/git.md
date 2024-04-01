@@ -14,3 +14,5 @@ git add nomedoarquivo.html// Salva na staged area apenas um arquivo.
 git add *.html // salva todos os arquivos em html.
 git add * // salva na staged area todos os arquivos
 git rm --cached // remove da staging area
+git log
+git branch 
